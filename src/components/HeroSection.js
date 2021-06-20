@@ -1,5 +1,7 @@
 import React from "react";
 import ButtonClick from "./ButtonClick";
+import "./HeroSection.css";
+import "../App.css";
 
 const HeroSection = () => {
   return (
@@ -14,6 +16,13 @@ const HeroSection = () => {
           buttonSize="btn--large"
         >
           Get Started
+        </ButtonClick>
+        <ButtonClick
+          className="btns"
+          buttonStyle="btn--primary"
+          buttonSize="btn--large"
+        >
+          Watch Trailer <i className="far fa-play-circle" />
         </ButtonClick>
       </div>
     </div>
