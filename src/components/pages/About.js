@@ -8,6 +8,11 @@ const About = () => {
       <div className="inner-container">
         <h1>About us</h1>
         <p className="text">Hey There welcome</p>
+        <div className="philosophers">
+          <span>LinkedIn</span>
+          <span>Github</span>
+          <span>Coding</span>
+        </div>
       </div>
     </div>
   );
