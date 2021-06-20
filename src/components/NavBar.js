@@ -46,11 +46,7 @@ const NavBar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                to="/about-section"
-                className="nav-links"
-                onClick={closeMenu}
-              >
+              <Link to="/about" className="nav-links" onClick={closeMenu}>
                 About
               </Link>
             </li>
@@ -63,7 +59,8 @@ const NavBar = () => {
                 Philosophers
               </Link>
             </li>
-            <li className="nav-item">
+
+            <li>
               <Link
                 to="/sign-up"
                 className="nav-links-mobile"
@@ -74,7 +71,7 @@ const NavBar = () => {
             </li>
           </ul>
           {button && (
-            <ButtonClick buttonStyle="btn--outline">SignUp</ButtonClick>
+            <ButtonClick buttonStyle="btn--outline">Signup</ButtonClick>
           )}
         </div>
       </nav>

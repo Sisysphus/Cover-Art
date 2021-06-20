@@ -6,16 +6,17 @@ const STYLES = ["btn--primary", "btn--outline", "btn--test"];
 
 const SIZES = ["btn--medium", "btn--large"];
 
-const ButtonClick = ({ children, buttonSize, buttonStyle, onClick, type }) => {
-  const checkButton = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
-  // Check if STYLES includes buttonStyle
+const ButtonClick = ({ children, type, onClick, buttonStyle, buttonSize }) => {
+  const checkButtonStyle = STYLES.includes(buttonStyle)
+    ? buttonStyle
+    : STYLES[0];
 
-  const checkSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
+  const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
     <Link to="/sign-up" className="btn-mobile">
       <button
-        className={`btn ${checkButton} ${checkSize}`}
+        className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
         type={type}
       >
