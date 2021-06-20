@@ -12,6 +12,19 @@ function App() {
           <Route path="/" exact />
         </Switch>
       </Router>
+      <Switch>
+        <Route path="/Philosophers" exact />
+      </Switch>
+      <Router>
+        <Switch>
+          <Route path="/About" exact />
+        </Switch>
+      </Router>
+      <Router>
+        <Switch>
+          <Route path="/About" exact />
+        </Switch>
+      </Router>
     </>
   );
 }
