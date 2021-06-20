@@ -6,6 +6,7 @@ const Cards = () => {
   return (
     <div className="cards">
       <div className="cards__container">
+        <h1> Welcome to Hermes</h1>
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem

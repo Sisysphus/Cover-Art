@@ -1,8 +1,9 @@
 import React from "react";
 import "../../App.css";
+import IndividualPhilo from "./IndividualPhilo";
 
 const Philosophers = () => {
-  return <h1 className="philosophers">About</h1>;
+  return <IndividualPhilo />;
 };
 
 export default Philosophers;

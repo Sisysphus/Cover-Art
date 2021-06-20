@@ -33,9 +33,9 @@ const NavBar = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMenu}>
-            <i className="fas fa-hamsa" />
-            Hermes
+            <i className="fas fa-hamsa and-more" />
           </Link>
+          <h1 className="hermes">Hermes</h1>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>

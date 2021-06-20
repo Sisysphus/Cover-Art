@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className="hero-btns">
         <ButtonClick
           className="btns"
-          buttonStyle="btn--primary"
+          buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
           Get Started
