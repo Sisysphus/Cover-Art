@@ -1,0 +1,29 @@
+/* .ui-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+} */
+
+/* .description {
+  overflow: hidden;
+} */
+
+.ui-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  object-fit: contain;
+  height: 200px;
+  width: 250px;
+}
+
+/* .ui-card {
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+} */
