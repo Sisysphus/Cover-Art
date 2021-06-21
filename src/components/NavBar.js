@@ -70,9 +70,6 @@ const NavBar = () => {
               </Link>
             </li>
           </ul>
-          {button && (
-            <ButtonClick buttonStyle="btn--outline">Signup</ButtonClick>
-          )}
         </div>
       </nav>
     </>

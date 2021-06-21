@@ -1,6 +1,7 @@
 import React from "react";
 import "./ButtonClick.css";
 import { Link } from "react-router-dom";
+import ReactPlayer from "react-player";
 
 const STYLES = ["btn--primary", "btn--outline", "btn--test"];
 
@@ -14,7 +15,7 @@ const ButtonClick = ({ children, type, onClick, buttonStyle, buttonSize }) => {
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to="/sign-up" className="btn-mobile">
+    <Link to="/about" className="btn-mobile">
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}

@@ -7,8 +7,8 @@ const HeroSection = () => {
   return (
     <div className="hero-container">
       <video src="/videos/buddha.mp4" autoPlay loop muted />
-      <h1>Adventure Awaits</h1>
-      <p> What are you waiting for?</p>
+      <h1>Esoterica</h1>
+      <p>Explore the great philosophers of our past!</p>
       <div className="hero-btns">
         <ButtonClick
           className="btns"
