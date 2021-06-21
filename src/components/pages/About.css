@@ -31,10 +31,13 @@ body {
   justify-self: center;
 }
 
-.about-section > h3 {
+.about-section-content {
   color: white;
   font-family: "Philosopher", sans-serif;
+  width: 50%;
+  font-size: 20px;
 }
+
 .philo-container {
   display: flex;
   justify-content: space-between;
@@ -81,4 +84,35 @@ body {
   font-family: "Philosopher", sans-serif;
   margin-right: 20px;
   align-self: center;
+}
+
+.bottom-container > p {
+  font-family: "Philosopher", sans-serif;
+  font-size: 45px;
+}
+.eastern {
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+}
+.eastern {
+  width: 50%;
+  word-wrap: break-word;
+}
+.eastern > h1 {
+  font-family: "Philosopher", sans-serif;
+}
+.western {
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+}
+.western > h1 {
+  font-family: "Philosopher", sans-serif;
+  word-wrap: break-word;
+}
+
+.picture-holder > img {
+  width: 50%;
+  margin-top: 20px;
 }
