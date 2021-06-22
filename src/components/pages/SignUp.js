@@ -1,11 +1,11 @@
-import React from "react";
+// import React from "react";
 
-function SignUp() {
-  return (
-    <div>
-      <h1 className="sign-up"> </h1>
-    </div>
-  );
-}
+// function SignUp() {
+//   return (
+//     <div>
+//       <h1 className=""> </h1>
+//     </div>
+//   );
+// }
 
-export default SignUp;
+// export default SignUp;

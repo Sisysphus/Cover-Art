@@ -2,7 +2,7 @@ import React from "react";
 // import "../../App.css";
 import "./About.css";
 import ReactPlayer from "react-player";
-import PlayCircleFilledWhiteIcon from "@material-ui/icons/PlayCircleFilledWhite";
+import CallReceivedIcon from "@material-ui/icons/CallReceived";
 
 const About = () => {
   return (
@@ -18,14 +18,17 @@ const About = () => {
         <div className="about-section-content">
           <h1>Are you truly free?</h1>
           <p> What does it mean?</p>
+          
         </div>
       </div>
       <hr />
+      <h1 className="top-ele">What is the fuss all about?</h1>
       <div className="bottom-container">
         <div className="picture-holder">
-          <img src="images/rene.jpg" />
-          <img src="images/laotsu.jpg" />
+          <img alt="Rene Descartes" src="images/rene.jpg" />
+          <img alt="Lao-tsu" src="images/laotsu.jpg" />
         </div>
+
         <div className="philo-container">
           <div className="western">
             <h1>Western Philosophy:</h1>

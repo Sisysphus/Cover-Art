@@ -1,7 +1,6 @@
 import React from "react";
 import "./ButtonClick.css";
 import { Link } from "react-router-dom";
-import ReactPlayer from "react-player";
 
 const STYLES = ["btn--primary", "btn--outline", "btn--test"];
 

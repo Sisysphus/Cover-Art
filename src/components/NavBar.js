@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import ButtonClick from "./ButtonClick";
 import "./NavBar.css";
 
 const NavBar = () => {
@@ -57,16 +56,6 @@ const NavBar = () => {
                 onClick={closeMenu}
               >
                 Philosophers
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                to="/sign-up"
-                className="nav-links-mobile"
-                onClick={closeMenu}
-              >
-                Signup
               </Link>
             </li>
           </ul>

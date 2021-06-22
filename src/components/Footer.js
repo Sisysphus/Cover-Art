@@ -26,23 +26,23 @@ const Footer = () => {
         </div>
       </section>
 
-      <section class="social-media">
-        <div class="social-media-wrap">
-          <div class="footer-logo">
+      <section className="social-media">
+        <div className="social-media-wrap">
+          <div className="footer-logo">
             <Link to="/" className="social-logo">
               Hermes
-              <i class="fas fa-hamsa" />
+              <i className="fas fa-hamsa" />
             </Link>
           </div>
-          <small class="website-rights">Hermes © 2020</small>
-          <div class="social-icons">
+          <small className="website-rights">©Hermes 2021</small>
+          <div className="social-icons">
             <Link
-              class="social-icon-link twitter"
+              className="social-icon-link linkedin"
               href="www.linkedIn.com/adam-faidy"
               target="_blank"
               aria-label="LinkedIn"
             >
-              <i class="fab fa-linkedin" />
+              <i className="fab fa-linkedin" />
             </Link>
           </div>
         </div>

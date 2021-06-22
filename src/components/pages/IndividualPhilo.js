@@ -5,10 +5,12 @@ function IndividualPhilo() {
     <div className="ui-container">
       <div className="ui card">
         <div className="image-card">
-          <img src="/images/plato.jpg" />
+          <img alt="plato" src="/images/plato.jpg" />
         </div>
         <div class="content">
-          <a className="header">Plato</a>
+          <a href="https://en.wikipedia.org/wiki/Plato" className="header">
+            Plato
+          </a>
           <div className="meta">
             <span className="date">Born in 428 BCE </span>
           </div>

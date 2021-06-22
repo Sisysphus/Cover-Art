@@ -38,6 +38,13 @@ body {
   font-size: 20px;
 }
 
+.about-section-content > h1 {
+  color: white;
+  font-family: "Philosopher", sans-serif;
+
+  font-size: 20px;
+}
+
 .philo-container {
   display: flex;
   justify-content: space-between;
@@ -115,4 +122,9 @@ body {
 .picture-holder > img {
   width: 50%;
   margin-top: 20px;
+}
+
+.arrow-side {
+  position: relative;
+  right: 45px;
 }
