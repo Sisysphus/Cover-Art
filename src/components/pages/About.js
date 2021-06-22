@@ -16,9 +16,18 @@ const About = () => {
           url="https://www.youtube.com/watch?v=1A_CAkYt3GY&ab_channel=CrashCourseCrashCourseVerified"
         />
         <div className="about-section-content">
-          <h1>Are you truly free?</h1>
+          <div className="meaning-wrap">
+            <h1>Are you truly free?</h1>
+          </div>
           <p> What does it mean?</p>
-          
+          <div className="arrow-pointers">
+            <img className="image-2" src="images/arrow-right.png" />
+            <img className="image-1" src="images/arrow-left.png" />
+          </div>
+          <div className="about-section-elements">
+            <h3 className="free-will">Free Will</h3>
+            <h3 className="determinism">Determinism</h3>
+          </div>
         </div>
       </div>
       <hr />
@@ -32,6 +41,10 @@ const About = () => {
         <div className="philo-container">
           <div className="western">
             <h1>Western Philosophy:</h1>
+            <p>Feeling oneself as an element of the Divine</p>
+          </div>
+          <div className="eastern">
+            <h1>Eastern Philosophy:</h1>
             <p>
               * Life is a journey towards eternal realities that are beyond the
               realities that surround us
@@ -47,9 +60,6 @@ const About = () => {
               highest state is believed to be a state of 'no-self', where
               neither self-worth nor self-importance have any real meaning.
             </p>
-          </div>
-          <div className="eastern">
-            <h1>Eastern Philosophy:</h1>
           </div>
         </div>
       </div>
