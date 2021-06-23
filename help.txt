@@ -1,0 +1,22 @@
+1. Mock Seeder file 
+    - Store vals in array POJO
+    - Import to cardItem.js
+    - Map through vals and place in <li> depending on styling / css
+
+2. Log in Demo page 
+
+3. Save favorite philosophers
+
+4. Search through philosopher cards
+
+
+
+
+
+
+1. Backend - API route with table for notes & Users
+2. Local storage api - key value pair saved
+3. Have front-end check if key-value pairs exist and render them out
+4. Key pair - Note key ( JSON object with array of notes with title body)
+5. if local storage.user exits render component
+6. Local Storage in React!

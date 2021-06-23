@@ -42,6 +42,16 @@ const About = () => {
           <div className="western">
             <h1>Western Philosophy:</h1>
             <p>Feeling oneself as an element of the Divine</p>
+            <p>Life is a service (to the God, money, business, etc.)</p>
+            <p>
+              Linear view of the universe and life, based on the Christian
+              philosophy where everything has its beginning and the end.
+            </p>
+            <p>Outer-world dependent</p>
+            <p>
+              Self-dedication to the goal. (big dream, life vision, happiness,
+              personal success, etc.)
+            </p>
           </div>
           <div className="eastern">
             <h1>Eastern Philosophy:</h1>
